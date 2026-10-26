@@ -1,0 +1,97 @@
+{
+  "hash": "f0e0875c",
+  "configHash": "452bb5d8",
+  "lockfileHash": "7fa211f1",
+  "browserHash": "a00db4c4",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "2a362575",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "58cc30bf",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "f92bfd92",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "0b25049d",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "019235fa",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "06d44805",
+      "needsInterop": false
+    },
+    "@tsparticles/engine": {
+      "src": "../../../../../../node_modules/@tsparticles/engine/browser/index.js",
+      "file": "@tsparticles_engine.js",
+      "fileHash": "a6cb295a",
+      "needsInterop": false
+    },
+    "@tsparticles/slim": {
+      "src": "../../../../../../node_modules/@tsparticles/slim/browser/index.js",
+      "file": "@tsparticles_slim.js",
+      "fileHash": "c056f87e",
+      "needsInterop": false
+    },
+    "ngx-typed-js": {
+      "src": "../../../../../../node_modules/ngx-typed-js/fesm2020/ngx-typed-js.mjs",
+      "file": "ngx-typed-js.js",
+      "fileHash": "28eb382d",
+      "needsInterop": false
+    },
+    "swiper": {
+      "src": "../../../../../../node_modules/swiper/swiper.mjs",
+      "file": "swiper.js",
+      "fileHash": "4f52605e",
+      "needsInterop": false
+    },
+    "swiper/modules": {
+      "src": "../../../../../../node_modules/swiper/modules/index.mjs",
+      "file": "swiper_modules.js",
+      "fileHash": "6c7b50cb",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-JI7PKFXN": {
+      "file": "chunk-JI7PKFXN.js"
+    },
+    "chunk-R7KR22SP": {
+      "file": "chunk-R7KR22SP.js"
+    },
+    "chunk-ARDJP275": {
+      "file": "chunk-ARDJP275.js"
+    },
+    "chunk-A43XT64C": {
+      "file": "chunk-A43XT64C.js"
+    },
+    "chunk-CBDWDBEY": {
+      "file": "chunk-CBDWDBEY.js"
+    },
+    "chunk-VTQHMYY6": {
+      "file": "chunk-VTQHMYY6.js"
+    },
+    "chunk-WDMUDEB6": {
+      "file": "chunk-WDMUDEB6.js"
+    }
+  }
+}

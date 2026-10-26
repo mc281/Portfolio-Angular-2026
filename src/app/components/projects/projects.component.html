@@ -1,0 +1,74 @@
+
+<section id="portfolio" class="section-portfolio style-1 spacing-5 section"
+         aria-labelledby="portfolio-title">
+
+  <header class="heading-section mb_42">
+    <div class="tag-heading">Portfolio</div>
+
+    <h2 id="portfolio-title"
+        class="text_white fw-5 split-text effect-blur-fade">
+      <span class="title_projects">Proyectos Realizados</span>
+    </h2>
+  </header>
+
+  <div class="tabs-content-wrap tf-grid-layout md-col-2">
+
+    @for (project of projects; track project.id) {
+      <article class="portfolio-item card"
+               [attr.aria-labelledby]="'project-title-' + project.id">
+
+        <a
+          [href]="project.linkPreview"
+          class="img-style"
+          target="_blank"
+          rel="noopener noreferrer"
+          [attr.aria-label]="'Ver vista previa de ' + project.titulo">
+
+          <div class="hover-div rounded">
+            <img
+              class="project_image card-img"
+              [src]="project.imagen"
+              [alt]="'Captura del proyecto ' + project.titulo"
+              loading="lazy"
+              decoding="async">
+          </div>
+
+          <div class="tag font-3 text-label text-uppercase fw-6 letter-spacing-1">
+            {{ project.tecnologia1 }},
+            {{ project.tecnologia2 }},
+            {{ project.tecnologia3 }}
+          </div>
+        </a>
+
+        <h3
+          class="title font-4 text_white"
+          [id]="'project-title-' + project.id">
+
+          <a
+            [href]="project.linkPreview"
+            class="link"
+            target="_blank"
+            rel="noopener noreferrer">
+            {{ project.titulo }}
+          </a>
+        </h3>
+
+        <p class="descripcion font-4 text_white">
+          {{ project.descripcion }}
+        </p>
+
+        <div class="item-shape spotlight" aria-hidden="true">
+          <img
+            src="/images/item/small-comet.webp"
+            loading="lazy"
+            decoding="async"
+            alt="">
+        </div>
+
+      </article>
+    } @empty {
+      <p class="text_white">Todavía no hay proyectos para mostrar.</p>
+    }
+
+  </div>
+</section>

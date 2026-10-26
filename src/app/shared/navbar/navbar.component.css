@@ -1,0 +1,7 @@
+#contact-btn {
+  color: var(--Black);
+  background-color: var(--Primary);
+  border-radius: 10px;
+  font-weight: 600;
+  border-radius: 40px;
+}
